@@ -1,9 +1,10 @@
- **
+
 
 ### FreeMODBUS RTU Slave Demo for STM32 Nucleo-64 board
-** 
 
- **项目简介** 
+
+ **项目简介**
+ 
 本项目展示了如何在 STM32 Nucleo 系列开发板上移植并运行 FreeMODBUS 协议栈，实现 Modbus RTU 从站功能。程序初始化后，将保持寄存器设置为特定初始值，并通过 UART3 接口响应主站的 Modbus 请求
 
  **硬件依赖** 
