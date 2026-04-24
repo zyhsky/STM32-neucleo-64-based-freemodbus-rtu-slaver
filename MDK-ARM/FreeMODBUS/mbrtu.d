@@ -1,0 +1,15 @@
+freemodbus\mbrtu.o: ..\modbus\rtu\mbrtu.c
+freemodbus\mbrtu.o: D:\keil5\exe\ARM\ARMCC\Bin\..\include\stdlib.h
+freemodbus\mbrtu.o: D:\keil5\exe\ARM\ARMCC\Bin\..\include\string.h
+freemodbus\mbrtu.o: ../modbus/include/port.h
+freemodbus\mbrtu.o: ../modbus/include/mbconfig.h
+freemodbus\mbrtu.o: D:\keil5\exe\ARM\ARMCC\Bin\..\include\assert.h
+freemodbus\mbrtu.o: D:\keil5\exe\ARM\ARMCC\Bin\..\include\inttypes.h
+freemodbus\mbrtu.o: D:\keil5\exe\ARM\ARMCC\Bin\..\include\stdint.h
+freemodbus\mbrtu.o: ../modbus/include/mb.h
+freemodbus\mbrtu.o: ../modbus/include/mbport.h
+freemodbus\mbrtu.o: ../modbus/include/mb.h
+freemodbus\mbrtu.o: ../modbus/include/mbproto.h
+freemodbus\mbrtu.o: ..\modbus\rtu\mbrtu.h
+freemodbus\mbrtu.o: ../modbus/include/mbframe.h
+freemodbus\mbrtu.o: ..\modbus\rtu\mbcrc.h

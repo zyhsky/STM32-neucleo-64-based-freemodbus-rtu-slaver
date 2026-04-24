@@ -1,0 +1,15 @@
+freemodbus\mbascii.o: ..\modbus\ascii\mbascii.c
+freemodbus\mbascii.o: D:\keil5\exe\ARM\ARMCC\Bin\..\include\stdlib.h
+freemodbus\mbascii.o: D:\keil5\exe\ARM\ARMCC\Bin\..\include\string.h
+freemodbus\mbascii.o: ../modbus/include/port.h
+freemodbus\mbascii.o: ../modbus/include/mbconfig.h
+freemodbus\mbascii.o: D:\keil5\exe\ARM\ARMCC\Bin\..\include\assert.h
+freemodbus\mbascii.o: D:\keil5\exe\ARM\ARMCC\Bin\..\include\inttypes.h
+freemodbus\mbascii.o: D:\keil5\exe\ARM\ARMCC\Bin\..\include\stdint.h
+freemodbus\mbascii.o: ../modbus/include/mb.h
+freemodbus\mbascii.o: ../modbus/include/mbport.h
+freemodbus\mbascii.o: ../modbus/include/mb.h
+freemodbus\mbascii.o: ../modbus/include/mbproto.h
+freemodbus\mbascii.o: ..\modbus\ascii\mbascii.h
+freemodbus\mbascii.o: ../modbus/include/mbframe.h
+freemodbus\mbascii.o: ../modbus/rtu/mbcrc.h

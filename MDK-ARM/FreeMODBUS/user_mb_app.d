@@ -1,0 +1,14 @@
+freemodbus\user_mb_app.o: ..\modbus\user_mb_app.c
+freemodbus\user_mb_app.o: ..\modbus\user_mb_app.h
+freemodbus\user_mb_app.o: ../modbus/include/mb.h
+freemodbus\user_mb_app.o: ../modbus/include/port.h
+freemodbus\user_mb_app.o: ../modbus/include/mbconfig.h
+freemodbus\user_mb_app.o: D:\keil5\exe\ARM\ARMCC\Bin\..\include\assert.h
+freemodbus\user_mb_app.o: D:\keil5\exe\ARM\ARMCC\Bin\..\include\inttypes.h
+freemodbus\user_mb_app.o: D:\keil5\exe\ARM\ARMCC\Bin\..\include\stdint.h
+freemodbus\user_mb_app.o: ../modbus/include/mbport.h
+freemodbus\user_mb_app.o: ../modbus/include/mb.h
+freemodbus\user_mb_app.o: ../modbus/include/mbproto.h
+freemodbus\user_mb_app.o: ../modbus/include/mb_m.h
+freemodbus\user_mb_app.o: ../modbus/include/mbframe.h
+freemodbus\user_mb_app.o: ../modbus/include/mbutils.h

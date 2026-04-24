@@ -1,0 +1,13 @@
+freemodbus\mbfuncother.o: ..\modbus\functions\mbfuncother.c
+freemodbus\mbfuncother.o: D:\keil5\exe\ARM\ARMCC\Bin\..\include\stdlib.h
+freemodbus\mbfuncother.o: D:\keil5\exe\ARM\ARMCC\Bin\..\include\string.h
+freemodbus\mbfuncother.o: ../modbus/include/port.h
+freemodbus\mbfuncother.o: ../modbus/include/mbconfig.h
+freemodbus\mbfuncother.o: D:\keil5\exe\ARM\ARMCC\Bin\..\include\assert.h
+freemodbus\mbfuncother.o: D:\keil5\exe\ARM\ARMCC\Bin\..\include\inttypes.h
+freemodbus\mbfuncother.o: D:\keil5\exe\ARM\ARMCC\Bin\..\include\stdint.h
+freemodbus\mbfuncother.o: ../modbus/include/mb.h
+freemodbus\mbfuncother.o: ../modbus/include/mbport.h
+freemodbus\mbfuncother.o: ../modbus/include/mb.h
+freemodbus\mbfuncother.o: ../modbus/include/mbproto.h
+freemodbus\mbfuncother.o: ../modbus/include/mbframe.h

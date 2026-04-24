@@ -1,0 +1,10 @@
+freemodbus\portevent.o: ..\modbus\modebus_port\portevent.c
+freemodbus\portevent.o: ../modbus/include/mb.h
+freemodbus\portevent.o: ../modbus/include/port.h
+freemodbus\portevent.o: ../modbus/include/mbconfig.h
+freemodbus\portevent.o: D:\keil5\exe\ARM\ARMCC\Bin\..\include\assert.h
+freemodbus\portevent.o: D:\keil5\exe\ARM\ARMCC\Bin\..\include\inttypes.h
+freemodbus\portevent.o: D:\keil5\exe\ARM\ARMCC\Bin\..\include\stdint.h
+freemodbus\portevent.o: ../modbus/include/mbport.h
+freemodbus\portevent.o: ../modbus/include/mb.h
+freemodbus\portevent.o: ../modbus/include/mbproto.h
