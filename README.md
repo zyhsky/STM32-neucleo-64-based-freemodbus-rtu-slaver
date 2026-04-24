@@ -39,24 +39,24 @@
 
 ### FreeMODBUS RTU Slave Demo for STM32 Nucleo-64 Board
 
-** Project Overview **
+**Project Overview**
 
 This project demonstrates how to port and run the FreeMODBUS protocol stack on STM32 Nucleo series development boards to implement Modbus RTU slave functionality. After program initialization, the holding registers are set to specific default values, and the board responds to Modbus master requests via the UART3 interface.
 
-** Hardware Requirements **
+**Hardware Requirements**
 
 1. Development Board: STM32 Nucleo-64 (MCU Model: STM32G474RET6)
 2. Communication Interface: USART3 (for Modbus RTU communication)
 3. Timer: TIM7 (for 3.5-character delay frame end detection of FreeMODBUS)
 
-** Compilation and Flashing **
+**Compilation and Flashing**
 
 1. Open the FreeMODBUS.uvprojx project file with Keil.
 2. Click Rebuild to compile the project.
 3. Connect the Nucleo-64 board to a PC via a Type-C to USB cable.
 4. Click Load to flash the program into the development board.
 
-** Test Procedure **
+**Test Procedure**
 
 1. Hardware Connection: Use Dupont wires to connect the TX pin of the USB-to-UART converter to pin PB11 (UART_RX) of the development board, the RX pin of the converter to pin PB10 (UART_TX) of the board, and the GND pin of the converter to any GND pin on the development board.
 2. Software Debugging: Open the nucleo_modbus_test.mbp file with Modbus Poll software. Communication will be established, allowing the PC to act as the master and communicate with the development board via the Modbus protocol.
