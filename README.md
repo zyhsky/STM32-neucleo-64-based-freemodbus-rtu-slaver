@@ -21,17 +21,16 @@
 
  **测试方法** 
 
-硬件连接:
-1. 使用杜邦线将USB转串口连接器的TX引脚连接至开发板的PB11引脚（UART_RX），将连接器的RX引脚连接至开发板的PB10引脚（UART_TX），将连接器的GND引脚连接至开发板的任意一个GND引脚
+1. 硬件连接:使用杜邦线将USB转串口连接器的TX引脚连接至开发板的PB11引脚（UART_RX），将连接器的RX引脚连接至开发板的PB10引脚（UART_TX），将连接器的GND引脚连接至开发板的任意一个GND引脚
 
-2. 使用Modbus Poll软件打开neucleo_modbus_test.mbp文件，即可测通并使PC成为主机与开发板进行基于MODBUS协议的通信
+2. 软件调试：使用Modbus Poll软件打开neucleo_modbus_test.mbp文件，即可测通并使PC成为主机与开发板进行基于MODBUS协议的通信
 
-连接参数：
-波特率: 115200
-数据位: 8
-停止位: 1
-校验: None
-从站 ID: 1
+    连接参数：
+    波特率: 115200
+    数据位: 8
+    停止位: 1
+    校验: None
+    从站 ID: 1
 
 3. 开发板的引脚分布参照hardware_doc文件夹中的nucleo-64 boards user manual.pdf文件中的Figure 18
 
